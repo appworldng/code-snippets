@@ -4,7 +4,7 @@ The factorial of any given positive integer n is n! = 1 · 2 · . . . · n. We c
 
 Write a function:
 
-# function solution(N);
+## Solution(N)
 
 For example, given N = 3 the function should return 6, because 3 factorial is 3 x 2 x 1 = 6. Given N = 4 the function should return 24, because 4 factorial is 4 x 3 x 2 x 1 = 24
 
