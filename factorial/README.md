@@ -10,5 +10,5 @@ For example, given N = 3 the function should return 6, because 3 factorial is 3 
 
 Write an efficient algorithm for the following assumptions:
 
-N is an integer within the range [0, 1, 2.... 1024].
+N is a positive integer within the range [0, 1, 2.... 1024].
 0 factorial is 1.
