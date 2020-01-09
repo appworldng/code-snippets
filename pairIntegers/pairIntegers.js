@@ -9,5 +9,3 @@ function solution(N) {
     }
     return O;
 }
-
-console.log(solution("3457832954"));
