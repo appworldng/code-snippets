@@ -1,15 +1,14 @@
 function solution(A, K) {
-    //Get length of Array
-    let length = A.length;
-    let newPosition = 0;
-    let B = []; let C = [];
-    for(let i=0; i<A.length; i++) {
-        if((i + K) > (length - 1)) {
-            newPosition = (i + K) - length;
-        } else {
-            newPosition = i + K;
+    for(let i=0; i<K; i++) {
+        let lastIndex = A.length - 1;
+        let lastItem = A[lastIndex];
+        for(let j=(A.length-1); j>-1; j--) {
+            if(j>0) {
+                A[j] = A[j-1];
+            } else {
+                A[j] = lastItem;
+            }
         }
-        C[newPosition] = A[i];
     }
-    return C;
+    return A;
 }
