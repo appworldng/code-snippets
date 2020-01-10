@@ -1,4 +1,4 @@
-function decimalToBinary(N) {
+function solution(N) {
     let binaryNumber = "";
     while(N > 0) {
         binaryNumber = "" + (N%2) + binaryNumber;
